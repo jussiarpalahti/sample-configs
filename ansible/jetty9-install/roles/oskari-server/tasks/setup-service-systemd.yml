@@ -1,4 +1,4 @@
-
+l
 # Creates:
 # - tmp directory
 # - /etc/sysconfig/oskari-server
@@ -22,10 +22,10 @@
     group: oskari
 
 #sudo systemctl enable oskari-server
-- name: Enable service for automatic start
-  service:
-    name: "{{ oskari_component }}"
-    enabled: yes
+# - name: Enable service for automatic start
+#   service:
+#     name: "{{ oskari_component }}"
+#     enabled: yes
 
 # Do we want to start it?
 #sudo systemctl start oskari-server
